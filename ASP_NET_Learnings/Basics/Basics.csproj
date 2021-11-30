@@ -68,7 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationNSessionsDemo.aspx" />
+    <Content Include="BasicControls.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Ashish.png" />
+    <Content Include="IsPostBackDemo.aspx" />
     <Content Include="NoViewState.aspx" />
     <Content Include="ViewState.aspx" />
     <Content Include="Web.config" />
@@ -81,8 +84,22 @@
     <Compile Include="ApplicationNSessionsDemo.aspx.designer.cs">
       <DependentUpon>ApplicationNSessionsDemo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BasicControls.aspx.cs">
+      <DependentUpon>BasicControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicControls.aspx.designer.cs">
+      <DependentUpon>BasicControls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IsPostBackDemo.aspx.cs">
+      <DependentUpon>IsPostBackDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsPostBackDemo.aspx.designer.cs">
+      <DependentUpon>IsPostBackDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NoViewState.aspx.cs">
